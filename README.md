@@ -29,14 +29,19 @@ php artisan migrate --seed
 ## PUBLIC API DOCUMENTATION
 
 1. respon data product paginated
-   **Endpoint :** `/api/products`
-   **Example :** `/api/products`
+
+    **Endpoint :** `/api/products`
+    **Example :** `/api/products`
+
 2. respon product, category & product detailnya
-   **Endpoint :** `/api/products-with-relations`
-   **Example :** `/api/products-with-relations`
+
+    **Endpoint :** `/api/products-with-relations`
+    **Example :** `/api/products-with-relations`
+
 3. respon respon data product with sort ordering parameter
-   **Endpoint :** `/api/products-with-sort-ordering`
-   **Example :** `/api/products-with-sort-ordering?column=id&sort=desc`
+
+    **Endpoint :** `/api/products-with-sort-ordering`
+    **Example :** `/api/products-with-sort-ordering?column=id&sort=desc`
 
     **Params:**
 
@@ -46,14 +51,16 @@ php artisan migrate --seed
     | `column`     | requried | integer    | id, name, price,unit,description |
 
 4. respon respon product & group by category
-   **Endpoint :** `/api/products-group-by`
-   **Example :** `/api/products-group-by`
+
+    **Endpoint :** `/api/products-group-by`
+    **Example :** `/api/products-group-by`
 
 ## PRIVATE API DOCUMENTATION
 
 1. GET TOKEN
-   **Endpoint :** `/api/login`
-   **Method :** `POST`
+
+    **Endpoint :** `/api/login`
+    **Method :** `POST`
 
     **Body:**
 
@@ -77,14 +84,19 @@ php artisan migrate --seed
     | Authorization | `Bearer {token}` |
 
 2. respon data product paginated
-   **Endpoint :** `/api/products`
-   **Example :** `/api/products`
+
+    **Endpoint :** `/api/products`
+    **Example :** `/api/products`
+
 3. respon product, category & product detailnya
-   **Endpoint :** `/api/products-with-relations`
-   **Example :** `/api/products-with-relations`
+
+    **Endpoint :** `/api/products-with-relations`
+    **Example :** `/api/products-with-relations`
+
 4. respon respon data product with sort ordering parameter
-   **Endpoint :** `/api/products-with-sort-ordering`
-   **Example :** `/api/products-with-sort-ordering?column=id&sort=desc`
+
+    **Endpoint :** `/api/products-with-sort-ordering`
+    **Example :** `/api/products-with-sort-ordering?column=id&sort=desc`
 
     **Params:**
 
@@ -94,5 +106,6 @@ php artisan migrate --seed
     | `column`     | requried | integer    | id, name, price,unit,description |
 
 5. respon respon product & group by category
-   **Endpoint :** `/api/products-group-by`
-   **Example :** `/api/products-group-by`
+
+    **Endpoint :** `/api/products-group-by`
+    **Example :** `/api/products-group-by`
