@@ -30,18 +30,18 @@ php artisan migrate --seed
 
 1. respon data product paginated
 
-    **Endpoint :** `/api/products`
-    **Example :** `/api/products`
+    **Endpoint :** `/api/publics/products`
+    **Example :** `/api/publics/products`
 
 2. respon product, category & product detailnya
 
-    **Endpoint :** `/api/products-with-relations`
-    **Example :** `/api/products-with-relations`
+    **Endpoint :** `/api/publics/products-with-relations`
+    **Example :** `/api/publics/products-with-relations`
 
 3. respon respon data product with sort ordering parameter
 
-    **Endpoint :** `/api/products-with-sort-ordering`
-    **Example :** `/api/products-with-sort-ordering?column=id&sort=desc`
+    **Endpoint :** `/api/publics/products-with-sort-ordering`
+    **Example :** `/api/publics/products-with-sort-ordering?column=id&sort=desc`
 
     **Params:**
 
@@ -52,8 +52,8 @@ php artisan migrate --seed
 
 4. respon respon product & group by category
 
-    **Endpoint :** `/api/products-group-by`
-    **Example :** `/api/products-group-by`
+    **Endpoint :** `/api/publics/products-group-by`
+    **Example :** `/api/publics/products-group-by`
 
 ## PRIVATE API DOCUMENTATION
 
@@ -85,18 +85,18 @@ php artisan migrate --seed
 
 2. respon data product paginated
 
-    **Endpoint :** `/api/products`
-    **Example :** `/api/products`
+    **Endpoint :** `/api/privates/products`
+    **Example :** `/api/privates/products`
 
 3. respon product, category & product detailnya
 
-    **Endpoint :** `/api/products-with-relations`
-    **Example :** `/api/products-with-relations`
+    **Endpoint :** `/api/privates/products-with-relations`
+    **Example :** `/api/privates/products-with-relations`
 
 4. respon respon data product with sort ordering parameter
 
-    **Endpoint :** `/api/products-with-sort-ordering`
-    **Example :** `/api/products-with-sort-ordering?column=id&sort=desc`
+    **Endpoint :** `/api/privates/products-with-sort-ordering`
+    **Example :** `/api/privates/products-with-sort-ordering?column=id&sort=desc`
 
     **Params:**
 
@@ -107,5 +107,5 @@ php artisan migrate --seed
 
 5. respon respon product & group by category
 
-    **Endpoint :** `/api/products-group-by`
-    **Example :** `/api/products-group-by`
+    **Endpoint :** `/api/privates/products-group-by`
+    **Example :** `/api/privates/products-group-by`
